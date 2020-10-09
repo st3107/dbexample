@@ -1,7 +1,6 @@
 from os import path
 from setuptools import setup, find_packages
 import sys
-import versioneer
 
 
 # NOTE: This file must remain Python 2 compatible for the foreseeable future,
@@ -35,8 +34,7 @@ with open(path.join(here, 'requirements.txt')) as requirements_file:
 
 setup(
     name='dbexample',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version='0.1.0',
     description="An example nsls-ii database that can be accessed by the databroker.",
     long_description=readme,
     author="Songsheng Tao",
