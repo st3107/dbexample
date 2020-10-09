@@ -2,8 +2,8 @@
 dbexample
 =========
 
-.. image:: https://img.shields.io/travis/st3107/dbexample.svg
-        :target: https://travis-ci.org/st3107/dbexample
+.. image:: https://github.com/st3107/dbexample/workflows/test/badge.svg
+        :target: https://github.com/st3107/dbexample/actions
 
 .. image:: https://img.shields.io/pypi/v/dbexample.svg
         :target: https://pypi.python.org/pypi/dbexample
