@@ -37,21 +37,19 @@ setup(
     name='dbexample',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    description="Python package for doing science.",
+    description="An example nsls-ii database that can be accessed by the databroker.",
     long_description=readme,
     author="Songsheng Tao",
     author_email='st3107@columbia.edu',
     url='https://github.com/st3107/dbexample',
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     packages=find_packages(exclude=['docs', 'tests']),
-    entry_points={
-        'console_scripts': [
-            # 'command = some.module:some_function',
-        ],
-    },
+    py_modules=['example'],
+    entry_points={'intake.catalogs': ['example = example:catalog_instance']},
     include_package_data=True,
     package_data={
         'dbexample': [
+            "data/*"
             # When adding files here, remember to update MANIFEST.in as well,
             # or else they will not be included in the distribution on PyPI!
             # 'path/to/data_file',

@@ -9,12 +9,7 @@ dbexample
         :target: https://pypi.python.org/pypi/dbexample
 
 
-Python package for doing science.
+An example nsls-ii database that can be accessed by the databroker.
 
 * Free software: 3-clause BSD license
 * Documentation: (COMING SOON!) https://st3107.github.io/dbexample.
-
-Features
---------
-
-* TODO
