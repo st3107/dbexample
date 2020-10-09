@@ -4,6 +4,15 @@ dbexample Change Log
 
 .. current developments
 
+v0.1.1
+====================
+
+**Changed:**
+
+* refactor the code
+
+
+
 v0.1.0
 ====================
 
