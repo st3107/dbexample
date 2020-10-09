@@ -19,8 +19,8 @@ $ACTIVITIES = [
     'tag',
     'install',
     'push_tag',
+    'ghpages'
     'ghrelease',
-    'ghpages',
     'pypi'
 ]
 
