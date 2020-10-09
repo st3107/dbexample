@@ -36,8 +36,6 @@ $TAG_REMOTE = 'git@github.com:st3107/dbexample.git'
 $GITHUB_ORG = 'st3107'
 $GITHUB_REPO = 'dbexample'
 
-$CONDA_ORG = 'diffpy'
-
 $SPHINX_HOST_DIR = 'docs/build'
 $GHPAGES_REPO = 'git@github.com:st3107/dbexample.git'
 $GHPAGES_BRANCH = 'gh-pages'
