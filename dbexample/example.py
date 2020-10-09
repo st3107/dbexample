@@ -2,10 +2,8 @@
 # setup.py, and will be discovered by databroker. How the instance is
 # created, and what type of catalog it is, is completely up to the
 # implementation. This is just one possible example.
-from pkg_resources import resource_filename
-from pathlib import Path
-
 import intake
+from pkg_resources import resource_filename
 
 # the directory with the msgpack files
 data_dir = resource_filename("dbexample", "data")
