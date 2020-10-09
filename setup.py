@@ -34,7 +34,7 @@ with open(path.join(here, 'requirements.txt')) as requirements_file:
 
 setup(
     name='dbexample',
-    version='0.1.0',
+    version='0.1.1',
     description="An example nsls-ii database that can be accessed by the databroker.",
     long_description=readme,
     author="Songsheng Tao",
