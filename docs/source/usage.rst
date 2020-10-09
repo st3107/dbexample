@@ -2,8 +2,13 @@
 Usage
 =====
 
-Start by importing dbexample.
+To get access to the data,
 
 .. code-block:: python
 
-    import dbexample
+    from databroker import catalog
+
+    db = catalog["example"]
+    run = db[0]
+
+Then, follow the instruction of `databroker <https://nsls-ii.github.io/databroker/v2/user/index.html>`_.

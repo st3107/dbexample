@@ -6,10 +6,13 @@
 dbexample Documentation
 =======================
 
+This package is an example database that can be accessed by the databroker. It can be used for testing software
+that built upon the data schemas in the databroker.
+
 .. toctree::
    :maxdepth: 2
 
    installation
    usage
-   release-history
+   changelog
    min_versions

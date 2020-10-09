@@ -43,7 +43,7 @@ setup(
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     packages=find_packages(exclude=['docs', 'tests']),
     py_modules=['example'],
-    entry_points={'intake.catalogs': ['example = example:catalog_instance']},
+    entry_points={'intake.catalogs': ['example = dbexample.example:catalog_instance']},
     include_package_data=True,
     package_data={
         'dbexample': [
