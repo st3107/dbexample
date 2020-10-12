@@ -1,6 +1,6 @@
 **Added:**
 
-* <news item>
+* Add additional data that contains the calibration metadata
 
 **Changed:**
 
