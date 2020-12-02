@@ -1,16 +1,3 @@
-from rever.activity import activity
-
-
-@activity
-def build_docs():
-    make -C docs html
-
-
-@activity
-def install():
-    python -m pip install .
-
-
 $PROJECT = 'dbexample'
 $ACTIVITIES = [
     'version_bump',
@@ -19,8 +6,6 @@ $ACTIVITIES = [
     'tag',
     'install',
     'push_tag',
-    'ghpages'
-    'ghrelease',
     'pypi'
 ]
 
@@ -35,10 +20,3 @@ $TAG_REMOTE = 'git@github.com:st3107/dbexample.git'
 
 $GITHUB_ORG = 'st3107'
 $GITHUB_REPO = 'dbexample'
-
-$SPHINX_HOST_DIR = 'docs/build'
-$GHPAGES_REPO = 'git@github.com:st3107/dbexample.git'
-$GHPAGES_BRANCH = 'gh-pages'
-$GHPAGES_COPY = (
-    ('$SPHINX_HOST_DIR/html', '$GHPAGES_REPO_DIR'),
-)
