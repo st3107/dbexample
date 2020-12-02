@@ -4,6 +4,19 @@ dbexample Change Log
 
 .. current developments
 
+v0.2.0
+====================
+
+**Added:**
+
+* Add additional data that contains the calibration metadata
+
+**Changed:**
+
+* Change the data from the aborted run to a successful run.
+
+
+
 v0.1.1
 ====================
 
