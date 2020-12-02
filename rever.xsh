@@ -2,9 +2,7 @@ $PROJECT = 'dbexample'
 $ACTIVITIES = [
     'version_bump',
     'changelog',
-    'build_docs',
     'tag',
-    'install',
     'push_tag',
     'pypi'
 ]
