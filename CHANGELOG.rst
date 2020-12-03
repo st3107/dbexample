@@ -4,6 +4,15 @@ dbexample Change Log
 
 .. current developments
 
+v0.2.1
+====================
+
+**Added:**
+
+* Add new data of a Ni sample with its dark frame
+
+
+
 v0.2.0
 ====================
 
