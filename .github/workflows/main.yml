@@ -28,7 +28,7 @@ jobs:
         run: python -m pip install .
 
       - name: run the tests and
-        run: pytest dbexample/tests --showlocals
+        run: coverage run -m pytest dbexample/tests
 
       - name: check code style
         run: flake8
